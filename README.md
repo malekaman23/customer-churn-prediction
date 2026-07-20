@@ -107,3 +107,10 @@ jupyter nbconvert --to notebook --execute --inplace churn_prediction.ipynb
 # Run the web app
 streamlit run app.py
 ```
+
+### Run with Docker (alternative)
+```bash
+docker build -t churn-predictor .
+docker run -p 8501:8501 churn-predictor
+```
+Then open http://localhost:8501
