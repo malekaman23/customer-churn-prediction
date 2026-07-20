@@ -58,7 +58,7 @@ def reset_form():
 # ---------------- Header ----------------
 st.title("Customer Churn Prediction")
 st.markdown("Predict whether a telecom customer is likely to churn, based on their profile and service usage.")
-st.caption("Tip: use the ⋮ menu (top-right) → Settings → Theme to switch between Light and Dark mode.")
+# st.caption("Tip: use the ⋮ menu (top-right) → Settings → Theme to switch between Light and Dark mode.")
 st.divider()
 
 # ---------------- Sidebar ----------------
