@@ -1,3 +1,5 @@
+**Live Demo:** [https://customer-churn-prediction-m.streamlit.app/](https://customer-churn-prediction-m.streamlit.app/)
+
 # Customer Churn Prediction
 
 Predicting which telecom customers are likely to cancel their subscription, using machine learning — so businesses can act before customers leave.
