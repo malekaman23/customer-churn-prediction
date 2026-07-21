@@ -28,6 +28,8 @@ IBM Sample Telco Customer Churn dataset — 7,043 customers, 21 features coverin
 7. **Evaluation** — prioritized Recall and ROC-AUC over raw Accuracy (missing a churner costs the business more than a false alarm)
 8. **Interpretation** — feature importance to identify actionable churn drivers
 9. **Deployment** — interactive Streamlit web app with single-customer prediction, batch CSV scoring, and an insights dashboard
+10. **Experiment Tracking** — used MLflow to track parameters, metrics, and model artifacts across all model experiments, enabling systematic comparison and reproducibility
+11. **Containerization** — packaged the app with Docker for portable, environment-independent deployment
 
 ## Results
 
@@ -93,7 +95,7 @@ IBM Sample Telco Customer Churn dataset — 7,043 customers, 21 features coverin
 
 ## Tech Stack
 
-Python · pandas · scikit-learn · XGBoost · SQLite/SQL · Streamlit · Plotly · matplotlib · seaborn
+Python · pandas · scikit-learn · XGBoost · SQLite/SQL · Streamlit · Plotly · matplotlib · seaborn · MLflow · Docker
 
 ## How to Run
 
